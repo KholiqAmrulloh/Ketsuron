@@ -6,6 +6,7 @@ import IconHomeActive from './HomeActive.svg'
 import IconPesananActive from './PesananActive.svg'
 import IconInboxActive from './InboxActive.svg'
 import IconAkunActive from './AkunActive.svg'
+import IconBell from './bell 1.svg'
 import LayananTrain from './LayananTrain.svg'
 import Kcic from './KCIC.svg'
 import Hotel from './hotel.svg'
@@ -52,8 +53,12 @@ import Pembelian from './Pembelian.svg'
 import Refund from './Refund.svg'
 import Transaksi from './Transaksi.svg'
 import List from './List.svg'
+import Fav from './favorit 1.svg'
+import Trend from './trending 1.svg'
 
 export {
+    Fav,
+    Trend,
     IconHome,
     IconPesanan,
     IconInbox,
@@ -62,6 +67,7 @@ export {
     IconPesananActive,
     IconInboxActive,
     IconAkunActive,
+    IconBell,
     LayananTrain,
     Kcic,
     Hotel,
