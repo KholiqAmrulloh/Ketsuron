@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, ImageBackground } from 'react-native'
 // import { WARNA_PUTIH } from 'utils/warna'
 
 
-import { Logo } from '../../assets'
+import { Logo } from 'assets/Image';
 
 const Splash = ({ navigation }) => {
   useEffect(() => {
