@@ -4,4 +4,5 @@ import Search from "./Search";
 import Home from "./Home";
 import Splash from "./Splash";
 
-export {Akun, Details, Search, Home, Splash}
+
+export { Akun, Details, Search, Home, Splash }

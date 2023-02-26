@@ -4,6 +4,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Home, Details, Search, Akun, Splash } from '../Pages';
 import { BottomNavigator } from '../Component';
+import Register from '../Pages/Akun/Register';
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
 
@@ -13,7 +14,7 @@ const MainApp = () => {
       <Tab.Screen name="Home" component={Akun} options={{ headerShown: false }} />
       <Tab.Screen name="Favorite" component={Home} options={{ headerShown: false }} />
       <Tab.Screen name="Search" component={Details} options={{ headerShown: false }} />
-      <Tab.Screen name="Akun" component={Search} options={{ headerShown: false }} />
+      <Tab.Screen name="Akun" component={Akun} options={{ headerShown: false }} />
 
     </Tab.Navigator>
   )
@@ -24,10 +25,7 @@ const Router = () => {
     <Stack.Navigator initialRouteName='Splash'>
       <Stack.Screen name="MainApp" component={MainApp} options={{ headerShown: false }} />
       <Stack.Screen name="Splash" component={Splash} options={{ headerShown: false }} />
-      {/* <Stack.Screen name="ComponentSetting" component={ComponentSetting} options={{headerShown: false}} /> 
-    <Stack.Screen name="ComponentNotifikasi" component={ComponentNotifikasi} options={{headerShown: false}} /> 
-    <Stack.Screen name="ComponentChat" component={ComponentChat} options={{headerShown: false}} /> 
-    <Stack.Screen name="LihatProfil" component={LihatProfil} options={{headerShown: false}} />  */}
+      <Stack.Screen name="Register" component={Register} options={{ headerShown: false }} />
     </Stack.Navigator>
   )
 }
