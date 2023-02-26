@@ -24,7 +24,7 @@ const Home = () => {
             </TouchableOpacity>
             <View style={{ marginHorizontal: 10 }}></View>
             <TouchableOpacity style={{ backgroundColor: WARNA_PUTIH, height: 120, flex: 1, borderColor: WARNA_PRIMARY, borderWidth: 2, justifyContent: 'center', alignItems: 'center', borderRadius: 20 }}>
-              <Text>Gambar</Text>
+              <Text>Gambar</Text> 
             </TouchableOpacity>
           </View>
         </View>
